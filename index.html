@@ -1,25 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <!-- Header section -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header nav -->
     <header>
-        <div class="logo"><span>J</span>ohn.</div>
-        <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div id="menu-icon" class="bx bx-menu"></div>
+      <div class="logo"><span>J</span>ohn.</div>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div id="menu-icon" class="bx bx-menu"></div>
     </header>
-</body>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="home-content">
+        <h1>Hi! I'm John Pater</h1>
+        <div class="change-text">
+          <h3>And I'm</h3>
+          <h3>
+            <span class="word">Youtuber</span>
+            <span class="word">Web&nbsp;Designer</span>
+            <span class="word">Frontend&nbsp;Developer</span>
+            <span class="word">UI/UX&nbsp;Developer</span>
+            <span class="word">Graphics&nbsp;Designer</span>
+          </h3>
+        </div>
+        <p>
+          Product Designer and Digital Creative Director working in design field
+          for 10 years so far.specialized in UI?UX, Branding and digital
+          designs.
+        </p>
+        <div class="info-box">
+          <div class="email-info">
+            <h5>Email :</h5>
+            <span>john1234@gmail.com</span>
+          </div>
+          <div class="behance-info">
+            <h5>Behance :</h5>
+            <span>behance.net/john</span>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a href="#" class="btn">Download CV</a>
+          <a href="#" class="btn">Hire Me Now!</a>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-dribbble"></i></a>
+        </div>
+      </div>
+      <div class="home-image">
+        <div class="img-box">
+          <img src="images/man3.png" alt="" />
+        </div>
+        <div class="liquid-shape">
+          <svg
+            viewBox="0 0 500 500"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100%"
+            id="blobSvg"
+          >
+            <path fill="#12f7ff">
+              <animate
+                attributeName="d"
+                dur="20000ms"
+                repeatCount="indefinite"
+                values="M426,297Q412,344,390.5,400Q369,456,309.5,460.5Q250,465,212,423.5Q174,382,127,365Q80,348,51.5,299Q23,250,34.5,191Q46,132,94,97Q142,62,196,36Q250,10,290,61Q330,112,363.5,138.5Q397,165,418.5,207.5Q440,250,426,297Z;
+
+                    M458,306Q444,362,391.5,383Q339,404,294.5,404.5Q250,405,192,428Q134,451,94.5,407Q55,363,65.5,306.5Q76,250,74.5,199Q73,148,103.5,99Q134,50,192,71Q250,92,290.5,100.5Q331,109,384,125.5Q437,142,454.5,196Q472,250,458,306Z;
+                    M442,294Q403,338,382.5,390.5Q362,443,306,452.5Q250,462,209.5,426Q169,390,126.5,368Q84,346,80.5,298Q77,250,82,203Q87,156,130,136Q173,116,211.5,83Q250,50,302.5,59Q355,68,371,119.5Q387,171,434,210.5Q481,250,442,294Z;
+                    M453.5,300Q424,350,380.5,375.5Q337,401,293.5,448Q250,495,201.5,457Q153,419,114,385Q75,351,48.5,300.5Q22,250,31.5,189.5Q41,129,102,114.5Q163,100,206.5,59Q250,18,311.5,27.5Q373,37,388.5,99Q404,161,443.5,205.5Q483,250,453.5,300Z;
+                    M408,293Q399,336,386,399.5Q373,463,311.5,434Q250,405,194,425Q138,445,126.5,386.5Q115,328,64.5,289Q14,250,51,203Q88,156,125.5,127.5Q163,99,206.5,57.5Q250,16,288,67.5Q326,119,373.5,135Q421,151,419,200.5Q417,250,408,293Z;
+                    M400,290.5Q391,331,361,361Q331,391,290.5,444Q250,497,210,442.5Q170,388,118.5,372Q67,356,38,303Q9,250,30.5,193Q52,136,104.5,112Q157,88,203.5,57Q250,26,291.5,66Q333,106,377.5,128Q422,150,415.5,200Q409,250,400,290.5Z;
+                    M446.5,301Q427,352,390,390Q353,428,301.5,430Q250,432,197,432.5Q144,433,92.5,401.5Q41,370,45.5,310Q50,250,79,209Q108,168,133,129.5Q158,91,204,78Q250,65,297.5,75Q345,85,400.5,108Q456,131,461,190.5Q466,250,446.5,301Z;
+                    M426,297Q412,344,390.5,400Q369,456,309.5,460.5Q250,465,212,423.5Q174,382,127,365Q80,348,51.5,299Q23,250,34.5,191Q46,132,94,97Q142,62,196,36Q250,10,290,61Q330,112,363.5,138.5Q397,165,418.5,207.5Q440,250,426,297Z;
+                    "
+              ></animate>
+            </path>
+          </svg>
+        </div>
+        <div class="liquid-shape">
+            <svg
+              viewBox="0 0 500 500"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="100%"
+              id="blobSvg"
+            >
+              <path fill="#12f7ff">
+                <animate
+                  attributeName="d"
+                  dur="20000ms"
+                  repeatCount="indefinite"
+                  values="M426,297Q412,344,390.5,400Q369,456,309.5,460.5Q250,465,212,423.5Q174,382,127,365Q80,348,51.5,299Q23,250,34.5,191Q46,132,94,97Q142,62,196,36Q250,10,290,61Q330,112,363.5,138.5Q397,165,418.5,207.5Q440,250,426,297Z;
+  
+                      M458,306Q444,362,391.5,383Q339,404,294.5,404.5Q250,405,192,428Q134,451,94.5,407Q55,363,65.5,306.5Q76,250,74.5,199Q73,148,103.5,99Q134,50,192,71Q250,92,290.5,100.5Q331,109,384,125.5Q437,142,454.5,196Q472,250,458,306Z;
+                      M442,294Q403,338,382.5,390.5Q362,443,306,452.5Q250,462,209.5,426Q169,390,126.5,368Q84,346,80.5,298Q77,250,82,203Q87,156,130,136Q173,116,211.5,83Q250,50,302.5,59Q355,68,371,119.5Q387,171,434,210.5Q481,250,442,294Z;
+                      M453.5,300Q424,350,380.5,375.5Q337,401,293.5,448Q250,495,201.5,457Q153,419,114,385Q75,351,48.5,300.5Q22,250,31.5,189.5Q41,129,102,114.5Q163,100,206.5,59Q250,18,311.5,27.5Q373,37,388.5,99Q404,161,443.5,205.5Q483,250,453.5,300Z;
+                      M408,293Q399,336,386,399.5Q373,463,311.5,434Q250,405,194,425Q138,445,126.5,386.5Q115,328,64.5,289Q14,250,51,203Q88,156,125.5,127.5Q163,99,206.5,57.5Q250,16,288,67.5Q326,119,373.5,135Q421,151,419,200.5Q417,250,408,293Z;
+                      M400,290.5Q391,331,361,361Q331,391,290.5,444Q250,497,210,442.5Q170,388,118.5,372Q67,356,38,303Q9,250,30.5,193Q52,136,104.5,112Q157,88,203.5,57Q250,26,291.5,66Q333,106,377.5,128Q422,150,415.5,200Q409,250,400,290.5Z;
+                      M446.5,301Q427,352,390,390Q353,428,301.5,430Q250,432,197,432.5Q144,433,92.5,401.5Q41,370,45.5,310Q50,250,79,209Q108,168,133,129.5Q158,91,204,78Q250,65,297.5,75Q345,85,400.5,108Q456,131,461,190.5Q466,250,446.5,301Z;
+                      M426,297Q412,344,390.5,400Q369,456,309.5,460.5Q250,465,212,423.5Q174,382,127,365Q80,348,51.5,299Q23,250,34.5,191Q46,132,94,97Q142,62,196,36Q250,10,290,61Q330,112,363.5,138.5Q397,165,418.5,207.5Q440,250,426,297Z;
+                      "
+                ></animate>
+              </path>
+            </svg>
+         </div>
+      </div>
+    </section>
+
+    <!-- custom JavaScript  -->
+    <script src="script.js"></script>
+  </body>
 </html>
